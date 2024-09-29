@@ -1,8 +1,8 @@
 module.exports = {
     // Basic configuration
     token: 'MTExNjU3NDQ1NDQ1ODM1MTY3Ng.G9N5ZS.TH_1tH9lKINplHPfTdULheEqUKUagu8dn4gH8Q', // Place here your token
-    developerGuildID: '1114964337237434411', // Place here your Guild ID
-    database: 'mongodb+srv://bccmta:bccmta@bccmta.zwofaxh.mongodb.net/?retryWrites=true&w=majority', // Place here your MongoDB access
+    developerGuildID: '1074041160865161266', // Place here your Guild ID
+    database: 'mongodb+srv://kaxcav:kaxcavstudios@kaxcav.4gtdlpo.mongodb.net/?retryWrites=true&w=majority&appName=kaxcav', // Place here your MongoDB access
 
     // Activities
 
