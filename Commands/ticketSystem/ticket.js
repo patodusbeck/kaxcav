@@ -6,7 +6,7 @@
   module.exports = {
     data: new Discord.SlashCommandBuilder()
       .setName('ticket')
-      .setDescription('Setup do System Ticket')
+      .setDescription('Painel do System Ticket')
       .setDefaultMemberPermissions(PermissionFlagsBits.ManageChannels)
       .addChannelOption((option) =>
         option
