@@ -48,7 +48,7 @@ client
       
       client.on('ready', (c) => {
         console.clear();
-        console.log(`✦ Prisma Studios </> - Online!`)
+        console.log(`✦ Kaxcav Studios </> - Online!`)
         console.log('𝔓𝔄𝔗𝔒 𝔇𝔘𝔖 𝔅𝔈ℭ𝔎');
       
         setInterval(() => {
