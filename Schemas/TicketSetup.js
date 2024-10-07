@@ -10,6 +10,7 @@ let TicketSetup = new Schema({
     Description: String,
     Button: String,
     Emoji: String,
+    Kaxcav Studios: String,
 })
 
 module.exports = model('TicketSetup', TicketSetup);
