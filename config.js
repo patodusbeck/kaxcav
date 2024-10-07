@@ -1,6 +1,6 @@
 module.exports = {
     // Basic configuration
-    token: 'MTA3Mzc2NDUxMjU4MDI1NTgwNQ.GL9kxN.Wer1CJ6TDjbc2rcRnqYj-AyOI7V9P_UsDa1pWo', // Place here your token
+    token: 'token', // Place here your token
     developerGuildID: '1074041160865161266', // Place here your Guild ID
     database: 'mongodb+srv://kaxcav:kaxcavstudios@kaxcav.4gtdlpo.mongodb.net/?retryWrites=true&w=majority&appName=kaxcav', // Place here your MongoDB access
 
@@ -47,3 +47,4 @@ module.exports = {
     ticketMemberAdd: 'foi adicionado ao ticket.',
     ticketMemberRemove: 'foi removido ao ticket.',
 }
+
