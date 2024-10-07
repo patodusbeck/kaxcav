@@ -11,40 +11,40 @@
       .addChannelOption((option) =>
         option
           .setName('channel')
-          .setDescription('Selecione o canal onde irá ficar o Setup.')
+          .setDescription('✦ Kaxcav - Canal do Painel')
           .setRequired(true)
           .addChannelTypes(ChannelType.GuildText)
       )
       .addChannelOption((option) =>
         option
           .setName('category')
-          .setDescription('Selecione a categoria onde será gerado os ticket\'s')
+          .setDescription('✦ Kaxcav - Categoria dos Ticket')
           .setRequired(true)
           .addChannelTypes(ChannelType.GuildCategory)
       )
       .addChannelOption((option) =>
         option
           .setName('transcripts')
-          .setDescription('Selecione um canal onde ficará os transcripts (log).')
+          .setDescription('✦ Kaxcav - Canal que receberá o transcript.')
           .setRequired(true)
           .addChannelTypes(ChannelType.GuildText)
       )
       .addRoleOption((option) =>
         option
           .setName('handlers')
-          .setDescription('Cargo Moderador.')
+          .setDescription('✦ Kaxcav - Cargo Administrador')
           .setRequired(true)
       )
       .addRoleOption((option) =>
         option
           .setName('everyone')
-          .setDescription('Cargo Everyone (verificado).')
+          .setDescription('✦ Kaxcav - Cargo Administrador')
           .setRequired(true)
       )
       .addStringOption((option) =>
         option
           .setName('button')
-          .setDescription('Nome do botão.')
+          .setDescription('✦ Kaxcav - Nome do Botão')
           .setRequired(true)
       ),
     async execute(interaction) {
@@ -72,7 +72,7 @@
           }
         );
         const embed = new Discord.EmbedBuilder()
-        .setTitle("Central de Ajuda do Prisma Roleplay")
+        .setTitle("Central de Ajuda do Brasil Cidade Carioca")
         .setThumbnail(url="https://media.discordapp.net/attachments/1115114682781544458/1115416326668816434/logo_essenze_v1.png?")
         .setColor('#9a89ad')
         .setDescription('<:Foguete:1081423107488751626> Nessa seção, você pode tirar suas dúvidas, requisitar seu VIP, fazer uma denúncia ou entrar em contato com a nossa Equipe Staff.')
@@ -98,7 +98,7 @@
           embeds: [embed],
           components: [new ActionRowBuilder().addComponents(buttonshow)],
         }).catch(error => {return});
-        return interaction.reply({ embeds: [new EmbedBuilder().setDescription('Setup ticket criado com sucesso.').setColor('#9c89ad')], ephemeral: true});
+        return interaction.reply({ embeds: [new EmbedBuilder().setDescription('✦ Kaxcav - Painel Ticket criado.').setColor('#9c89ad')], ephemeral: true});
       } catch (err) {
         console.log(err);
         const errEmbed = new EmbedBuilder().setColor('#9c89ad').setDescription(config.ticketError);
