@@ -92,7 +92,7 @@
         const buttonshow = new ButtonBuilder()
           .setCustomId(button)
           .setLabel("Abrir Ticket")
-          .setEmoji("<:logo:1115393036910874664>")
+          .setEmoji("✅")
           .setStyle(ButtonStyle.Secondary);
         await guild.channels.cache.get(channel.id).send({
           embeds: [embed],

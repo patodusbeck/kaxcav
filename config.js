@@ -1,6 +1,6 @@
 module.exports = {
     // Basic configuration
-    token: 'MTExNjU3NDQ1NDQ1ODM1MTY3Ng.G9N5ZS.TH_1tH9lKINplHPfTdULheEqUKUagu8dn4gH8Q', // Place here your token
+    token: 'MTA3Mzc2NDUxMjU4MDI1NTgwNQ.GL9kxN.Wer1CJ6TDjbc2rcRnqYj-AyOI7V9P_UsDa1pWo', // Place here your token
     developerGuildID: '1074041160865161266', // Place here your Guild ID
     database: 'mongodb+srv://kaxcav:kaxcavstudios@kaxcav.4gtdlpo.mongodb.net/?retryWrites=true&w=majority&appName=kaxcav', // Place here your MongoDB access
 
@@ -27,16 +27,16 @@ module.exports = {
     ticketMessageTitle: 'Bem vindo! Em que podemos ajudá-lo?.',
     ticketMessageDescription: 'A member of our moderation team will soon take care of your request.\nThanks to you for waiting in calm and good mood.',
     ticketClose: 'Cancelar Ticket',
-    ticketCloseEmoji: '<:locked:1082462801244729446>',
+    ticketCloseEmoji: '✅',
     ticketClaim: 'Assumir Ticket',
     ticketClaimEmoji: '👋',
     ticketManage: 'Adicionar Membro',
-    ticketManageEmoji: '<:mention:1059964035442937886>',
+    ticketManageEmoji: '✅',
     ticketManageMenuTitle: 'Escolha um membro para adicionar ao Ticket.',
     ticketManageMenuEmoji: '❔ ',
     ticketCloseTitle: 'Fechando ticket...',
     ticketCloseDescription: 'O ticket será fechado em 5 segundos.',
-    ticketSuccessClaim: '<:users:1121581548777517056>  **Atendente:** Olá, seja bem vindo a equipe de suporte do **Prisma Roleplay**, em que podemos lhe ajudar?',
+    ticketSuccessClaim: '✅  **Atendente:** Olá, seja bem vindo a equipe de suporte do **Prisma Roleplay**, em que podemos lhe ajudar?',
     ticketAlreadyClaim: 'O ticket já foi aceito por',
     ticketDescriptionClaim: ', está sendo atendido por ',
     ticketTranscriptMember: 'Membro:',
