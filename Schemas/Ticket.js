@@ -7,7 +7,8 @@ let TicketSchema = new Schema({
     TicketID: String,
     ChannelID: String,
     Claimed: Boolean,
-    ClaimedBy: String
+    ClaimedBy: String,
+    Kaxcav Studios: String,
 });
 
 module.exports = model('Ticket', TicketSchema); 
